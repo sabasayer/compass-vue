@@ -1,4 +1,2 @@
-# Vuejs Typescript Npm Package With Webpack
+# Compass UI - Vuejs UI Framework
 
-Has problem with excluding vue . It creates vue as chunk and i exlude it in the package.json
-"# compass-vue" 
