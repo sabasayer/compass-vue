@@ -1,0 +1,13 @@
+@import '../settings/_colors.scss';
+
+@each $name,$color in $colors{
+    .#{$name} {
+        background-color: $color;
+        border-color: $color;
+    }
+    .text--#{$name} {
+        color: $color;
+        caret-color: $color;
+    }
+
+}

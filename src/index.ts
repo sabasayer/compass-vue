@@ -1,11 +1,9 @@
-import './styles/app.styl'
 // Import vue components
 import * as components from './components/index';
 
 // install function executed by Vue.use()
 
 function install(Vue: any) {
-    console.log('install');
     //@ts-ignore
     if (install.installed) return;
     //@ts-ignore

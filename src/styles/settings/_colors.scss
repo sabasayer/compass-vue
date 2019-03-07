@@ -1,0 +1,40 @@
+$white: #fff;
+$black: #000;
+$green: #00B495;
+$teal: #008A94;
+$blue: #00BFD5;
+$navy: #0099F2;
+$orange: #f26c22;
+$yellow: #E6DF00;
+$red: #DF0017;
+$pink: #D55499;
+$purple: #7000c4;
+$indigo: #4e77ff;
+$gray-dark: #292b2c;
+$gray: #3f3f3f;
+$gray-light: #eeeff2;
+$gray-lighter: #ededed;
+$gray-lightest: #fafafa;
+
+
+$colors: (
+    white: $white,
+    black: $black,
+    green: $green,
+    teal: $teal,
+    blue: $blue,
+    navy: $navy,
+    orange: $orange,
+    yellow: $yellow,
+    red: $red,
+    pink: $pink,
+    purple: $purple,
+    indigo: $indigo,
+    gray-dark: $gray-dark,
+    gray: $gray,
+    gray-light: $gray-light,
+    gray-lighter: $gray-lighter,
+    gray-lightest: $gray-lightest
+)
+
+

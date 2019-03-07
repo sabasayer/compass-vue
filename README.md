@@ -1,2 +1,1 @@
-# Compass UI - Vuejs UI Framework
-
+"# vuejs-webpack-typescript-package" 

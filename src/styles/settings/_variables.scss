@@ -1,0 +1,32 @@
+$spacer : 16px;
+$spacers:(
+    zero:0,
+    one:$spacer * .25,
+    two:$spacer * .5,
+    tree:$spacer,
+    four:$spacer * 1.5,
+    five:$spacer * 3
+);
+
+$grid-breakpoint-xs : 0;
+$grid-breakpoint-sm : 600px;
+$grid-breakpoint-md : 960px;
+$grid-breakpoint-lg : 1280px;
+$grid-breakpoint-xl : 1920;
+
+$display-break-points :(
+    print-only: "only print",
+    screen-only: "only screen",
+    xs-only: "only screen and (max-width: #{$grid-breakpoint-xs - 1})",
+    sm-only: "only screen and (min-width: #{$grid-breakpoint-sm ($grid-breakpoint-md  - 1)}) and (max-width: #{$grid-breakpoint-sm ($grid-breakpoint-md  - 1)})",
+    sm-and-down: "only screen and (max-width: #{$grid-breakpoint-md - 1})",
+    sm-and-up: "only screen and (min-width: #{$grid-breakpoint-sm})",
+    md-only: "only screen and (min-width: #{$grid-breakpoint-md ($grid-breakpoint-lg  - 1)}) and (max-width: #{$grid-breakpoint-md ($grid-breakpoint-lg  - 1)})",
+    md-and-down: "only screen and (max-width: #{$grid-breakpoint-lg - 1} )",
+    md-and-up: "only screen and (min-width: #{$grid-breakpoint-md})",
+    lg-only: "only screen and (min-width: #{$grid-breakpoint-lg ($grid-breakpoint-xl - 1)}) and (max-width: #{$grid-breakpoint-lg ($grid-breakpoint-xl - 1)})",
+    lg-and-down: "only screen and (max-width: (#{$grid-breakpoint-xl -1}))",
+    lg-and-up: "only screen and (min-width: #{$grid-breakpoint-lg})",
+    xl-only: "only screen and (min-width: #{$grid-breakpoint-xl})"
+)
+
